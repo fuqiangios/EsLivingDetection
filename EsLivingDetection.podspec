@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "EsLivingDetection"
-  spec.version      = "1.0.8"
+  spec.version      = "1.0.9"
   spec.summary      = "my test to upload framework to CocoaPods"
   spec.description  = <<-DESC
                        this is my first framework, now I am learning to upload it to cocoapod
@@ -18,6 +18,12 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/fuqiangios/EsLivingDetection"
 
   spec.license      = "MIT"
+        spec.pod_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    }
+  spec.user_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
 
 
   spec.author             = { "finlay" => "15041190450@163.com" }
