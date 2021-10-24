@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "EsLivingDetection"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "my test to upload framework to CocoaPods"
   spec.description  = <<-DESC
                        this is my first framework, now I am learning to upload it to cocoapod
@@ -103,5 +103,6 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  valid_archs  =['arm64']
+  valid_archs  = ['arm64']
+  excluded_architectures = ['arm64']
 end
