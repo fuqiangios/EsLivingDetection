@@ -10,8 +10,9 @@ Pod::Spec.new do |spec|
 
   spec.name         = "EsLivingDetection"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of EsLivingDetection."
+  spec.summary      = "my test to upload framework to CocoaPods"
   spec.description  = <<-DESC
+                       this is my first framework, now I am learning to upload it to cocoapod
                    DESC
 
   spec.homepage     = "https://github.com/fuqiangios/EsLivingDetection"
