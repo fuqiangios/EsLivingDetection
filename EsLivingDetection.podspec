@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "EsLivingDetection"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "my test to upload framework to CocoaPods"
   spec.description  = <<-DESC
                        this is my first framework, now I am learning to upload it to cocoapod
@@ -60,8 +60,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "EsLivingDetection", "EsLivingDetection/**/*.{h,m}"
-  spec.exclude_files = "EsLivingDetection/Exclude"
+    # spec.source_files  = "EsLivingDetection", "EsLivingDetection/**/*.{h,m}"
+    # spec.exclude_files = "EsLivingDetection/Exclude"
 
   # spec.public_header_files = "EsLivingDetection/**/*.h"
 
